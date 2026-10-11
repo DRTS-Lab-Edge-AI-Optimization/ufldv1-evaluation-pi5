@@ -1,6 +1,6 @@
 # UFLDv1 Evaluation on Raspberry Pi 5
 
-Containerized ONNX Runtime CPU evaluation for the UFLD v1 TuSimple baseline on Raspberry Pi 5.
+ONNX Runtime CPU evaluation for the UFLD v1 TuSimple baseline on Raspberry Pi 5.
 
 ## Contents
 
@@ -14,8 +14,7 @@ Containerized ONNX Runtime CPU evaluation for the UFLD v1 TuSimple baseline on R
 
 1. Export the model as described in `README-rpi-docker.md` and place it at `models/ufld_v1_tusimple.onnx`.
 2. Place `test_label.json` and its referenced TuSimple images under `data/`.
-3. Build and start the container with `docker compose up -d --build`.
-4. Open JupyterLab on port 8888 and run `notebooks/evaluation_ufld_v1_rpi5.ipynb`.
+3. Open JupyterLab on port 8888 and run `notebooks/evaluation_ufld_v1_rpi5.ipynb`.
 
 The notebook's estimated tensor-I/O is a graph-based logical estimate, not measured DRAM traffic. Board energy requires readings from an external meter or calibrated sensor.
 
