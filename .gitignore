@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+*.py[cod]
+*.pth
+*.pt
+*.onnx
+data/
+datasets/
+models/
+results/*
+!results/.gitkeep
+.ipynb_checkpoints/
