@@ -31,7 +31,7 @@ Model files, TuSimple images, and labels are excluded from Git. Follow their res
 
 - **Pruned weights:** pth files of the pruned model can be downloaded at: https://drive.google.com/drive/folders/18yhyHDl8kdn_dsbgMhNkF2TlPokTsTG8?usp=sharing.
 
-- 
+
 ### ONNX Files
 
 
