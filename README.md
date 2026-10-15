@@ -26,6 +26,14 @@ The notebook writes `summary.json`, `predictions.jsonl`, and ONNX Runtime profil
 
 Model files, TuSimple images, and labels are excluded from Git. Follow their respective licenses and terms when downloading and evaluating them.
 
+- **Pruned weights:** pth files of the pruned model can be downloaded at: https://drive.google.com/drive/folders/18yhyHDl8kdn_dsbgMhNkF2TlPokTsTG8?usp=sharing.
+
+- 
+### ONNX Files
+
+
+ONNX files for Quantized and Pruned models are available at: https://drive.google.com/open?id=1wXEp_KevI4iOxYSn1-5Jw0EGCei3s_fu&usp=drive_fs
+
 ## License
 
 Add the license approved by the lab or university before public release. Review upstream UFLD v1 licensing and attribution requirements for any copied or modified code.
