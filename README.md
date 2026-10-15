@@ -22,6 +22,9 @@ The notebook's estimated tensor-I/O is a graph-based logical estimate, not measu
 
 The notebook writes `summary.json`, `predictions.jsonl`, and ONNX Runtime profiling output under `results/`. Record the Pi model, cooling, OS, power supply, thread count, and runtime versions with any published measurements.
 
+<img width="975" height="378" alt="image" src="https://github.com/user-attachments/assets/eb8ec8f6-4ea3-4809-9173-8b59a141bdb8" />
+
+
 ## Data and weights
 
 Model files, TuSimple images, and labels are excluded from Git. Follow their respective licenses and terms when downloading and evaluating them.
